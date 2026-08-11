@@ -1,0 +1,411 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    /* overflow: hidden; */
+    background-color: #333;
+    direction: rtl;
+    font-weight: bold;
+    width: 90vw;
+    height: 60px;
+    border-radius: 10px;
+    padding-right: 10;
+    position: relative;
+    top: 10;
+  }
+  
+  li {
+    float: right;
+    height: 70px;
+  }
+
+  .sadna-li{
+    float: initial;
+    height: 70px;
+    display: inline;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+    top: 7;
+  }
+    #sadnot{
+    list-style: none;
+    /*background-color: #333;*/
+    width: 800;
+    border-radius: 8px;
+    position: relative;
+    left: 710;
+    height: 60;
+}
+  .sadna-a{
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+    top: 7;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .sadna-a:hover:not(.active) {
+    border-radius: 8px;
+    background-color: #cca300;
+  }
+
+  
+  .active {
+    background-color: #cca300;
+  }
+
+  footer{
+      box-sizing: border-box;
+      display: block;
+      background-color: #333;
+      direction: rtl;
+      color: white;
+      padding: 20px 20px;
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      bottom: 0;
+  }
+
+  body{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: #fffcf7;
+  }
+
+  #snifim{
+    direction: rtl;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: width 2s;
+}
+
+h4{
+    direction: rtl;
+    position: relative;
+    right: 200;
+}
+
+  .harshama{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10;
+  }
+
+  .snif{
+      width: 250;
+      height: 150;
+      display: inline;
+      background-color: #dddddd;
+      padding: 35;
+      border-radius: 8px;
+      transition: 1s;
+  
+  }
+
+  .snif:hover{
+    width: 300px;
+    background-color: #cca300;
+  }
+
+  #makron{
+      width: 40%;
+      height: 400px;
+      position: relative;
+      left: 30vw;
+
+  }
+
+  #join{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+      position: relative;
+      top: 20;
+      right: 20;
+      background-color: #333;
+      color: white;
+      border-color: #cca300;
+      border-radius: 10px;
+      padding: 20px;
+      font-size: medium;
+      transition: 1s;
+  }
+  #join:hover{
+      background-color: #cca300;
+  }
+
+  #moadon{
+      font-size: 35px;
+  }
+  #content{
+    font-size: 35px;
+    text-align: center;
+  }
+
+  table{
+    width: 98vw;
+    padding: 4vw;
+    padding-top: 20px;
+}
+
+
+.home{
+    width: 75%;
+    border-radius: 10px;
+    transition: 1s;
+}
+.home:hover{
+    opacity: 0.5;
+    width: 85%
+}
+.item img:hover{
+    width: 85%
+
+}
+
+
+.title1{
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+#logo{
+    width: 150;
+    height: 150;
+    /* margin: -60px; */
+    position: relative;
+    left: 750px;
+    top: -35;
+    /*transition-delay: 1s;*/
+}
+
+.sweet{
+    transition: 1s;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sweet2{
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 17;
+}
+
+#title2{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;  
+}
+
+#odot{
+    direction: rtl;
+    font-size: x-large;
+    text-align: center;
+    font-style: italic;
+}
+
+.to-order{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#seeMore{
+    font-size: 20px
+}
+
+#content2{
+    margin: 8vh 25vw;
+}
+
+.tableOrder{
+width: 80vw;
+position: relative;
+right: 310;
+}
+
+.tdOrder{
+border: 1px solid #dddddd;
+text-align: left;
+padding: 10px;
+width: 20vw;
+text-align: center;
+}
+
+.trOrder:nth-child(even) {
+background-color: #dddddd;
+}
+
+#title3{
+    font-weight: bold;
+}
+
+#contact{
+background-color: #dddddd;
+padding: 20px;
+border-top: 50px;
+margin-top: 50px;
+direction: rtl;
+}
+
+input{
+width: 95%;
+padding: 8px;
+display: block;
+}
+
+input:hover{
+border-color: black;
+}
+
+#must:hover{
+border-color: red;
+}
+
+button{
+color: white;
+background-color: #111;
+text-decoration: none;
+display: block;
+width: 100%;
+padding: 16px;
+margin-top: 50px;
+}
+
+button:hover{
+background-color: #cca300;
+color: white;
+}
+
+.item{
+    text-align: center;
+    margin: 10px;
+        width: 20vw;
+        padding: 10px;
+        text-align: center;    
+}
+
+    .item{
+        text-align: center;
+        margin: 10px;
+            padding: 10px;
+            text-align: center;    
+    }
+    
+
+
+.line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*margin: 20px;*/
+}
+
+td{
+    text-align: center;
+}
+
+h3{
+    font-size: 25;
+}
+
+
+@media screen and (max-width: 600px) {
+    ul a{
+      float: none;
+      width: 100vw;
+    }
+    ul{
+      height:inherit;
+      background-color:  #f6f4f0;
+      max-height: 20vh;
+      list-style-type: none;
+      margin: 0;
+      padding: 2px;
+      /* overflow: hidden; */
+      direction: rtl;
+      font-weight: bold;
+      width: 85vw;
+      height: 60px;
+      border-radius: 10px;
+      padding-right: 10;
+      position: relative;
+      top: 10;
+      right: -55;
+    }
+    ul li a{
+        color:white;
+        margin: 0;
+        padding: 10px;     
+    }
+    li{
+        height: initial;
+        background-color: #333;
+    }
+    .liAddress{
+        background-color: #dddddd;
+    }
+
+    .snif{
+        transition: none;
+        margin: 2px;
+    }
+
+    .snif:hover{
+        background-color: #dddddd;
+        width: 250;
+    }
+    #makron{
+        width: 60%;
+        left: 20vw;
+    }
+
+    #logo{
+        display: none;
+    }
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+    #title2{
+        position: relative;
+        top: 25;
+        z-index: -1;
+    }
+    h3{
+        font-size: medium;
+    }
+    .tableOrder{
+        width: 80vw;
+        position: relative;
+        right: 100;
+    }
+    #content{
+        padding-top: 200;
+    }   
+    #moadon{
+        font-size: 20px;
+    }
+    .item img:hover{
+        width: 25vw
+    }
+}  
+
